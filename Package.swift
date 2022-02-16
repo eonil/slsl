@@ -11,7 +11,7 @@ let package = Package(
         .executable(name: "SLSL4Benchmark", targets: ["SLSL4Benchmark"]),
     ],
     targets: [
-        .target(name: "SLSL4"),
+        .target(name: "SLSL4", exclude: ["Note.md"]),
         .testTarget(name: "SLSL4Test", dependencies: ["SLSL4"]),
         .target(name: "SLSL4Fuzz", dependencies: ["SLSL4"]),
         .target(name: "SLSL4Benchmark", dependencies: ["SLSL4"]),
