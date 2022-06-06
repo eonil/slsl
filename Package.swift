@@ -4,7 +4,7 @@
 import PackageDescription
 
 let package = Package(
-    name: "SLSL",
+    name: "SLSL4",
     products: [
         .library(name: "SLSL4", targets: ["SLSL4"]),
         .executable(name: "SLSL4Fuzz", targets: ["SLSL4Fuzz"]),
